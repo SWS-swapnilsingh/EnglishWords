@@ -15,40 +15,27 @@
       });
     </script>
     <style>
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-      body {
-        height: 100vh;
-        width: 100vw;
-        overflow: hidden;
-      }
-      iframe {
-        display: block;
-        width: 100vw;
-        height: 100vh;
-        border: none;
-      }
+        html, body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            height: 100vh;
+            width: 100vw;
+            overflow: hidden;
+        }
+        iframe {
+            display: block;
+            width: 100vw;
+            height: 100vh;
+            border: none;
+        }
     </style>
 </head>
 <body>
-    <!-- <iframe 
+    <iframe 
         src="https://wordwise-ai.streamlit.app/?embed=true">
-    </iframe> -->
-    <div style="position: relative; width: 100vw; height: 100vh;">
-        <iframe 
-          src="https://wordwise-ai.streamlit.app/?embed=true"
-          style="width: 100vw; height: 100vh; border: none;">
-        </iframe>
-        <div style="
-          position: absolute;
-          left: 0; right: 0; bottom: 0;
-          height: 40px;
-          background: #18191a; /* match your app's background */
-          z-index: 10;">
-        </div>
-      </div>      
+    </iframe>
 </body>
 </html>
